@@ -31,16 +31,15 @@
   background-color: transparent;
   padding: 15px;
   margin-right: 12px;
-}
 
-.contact-form-email::placeholder {
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-
-  color: var(--text-color-default);
+  &::placeholder {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: var(--text-color-default);
+  }
 }
 
 .email-form-btn {

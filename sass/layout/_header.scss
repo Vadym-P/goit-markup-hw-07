@@ -1,10 +1,10 @@
 .main-header {
   border-bottom: 1px solid #ececec;
-}
 
-.main-header .container {
-  display: flex;
-  align-items: center;
+  & .container {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .list-contacts {
@@ -27,13 +27,12 @@
   padding-top: var(--link-padding-tp);
   padding-bottom: var(--link-padding-bt);
   color: var(--content-description);
-
   transition: color var(--transition-time-cubic);
-}
 
-.channel-link:hover,
-.channel-link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .contacts-icon-mail {

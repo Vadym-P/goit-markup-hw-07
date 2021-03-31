@@ -4,10 +4,6 @@
   pointer-events: none;
 }
 
-.backdrop.is-hidden .modal {
-  transform: translate(-50%, -35%) rotate(180deg) scale(0);
-}
-
 .modal {
   position: absolute;
   top: 50%;
@@ -17,8 +13,11 @@
   height: 581px;
   background-color: var(--white-color);
   padding: 40px;
-
   transition: transform var(--transition-time-cubic-modal);
+
+  .backdrop.is-hidden & {
+    transform: translate(-50%, -35%) rotate(180deg) scale(0);
+  }
 }
 
 .modal-close-btn {
@@ -38,9 +37,9 @@
 
 .modal-close-btn-icon {
   transition: fill var(--transition-time-cubic);
-}
 
-.modal-close-btn-icon:hover,
-.modal-close-btn-icon:focus {
-  fill: var(--accent-color);
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
 }

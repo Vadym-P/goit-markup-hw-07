@@ -14,14 +14,13 @@
   cursor: pointer;
   border: none;
   color: var(--white-color);
-
   transition: background-color var(--transition-time-cubic),
     box-shadow var(--transition-time-cubic);
-}
 
-.modal-btn:hover,
-.modal-btn:focus {
-  background-color: var(--background-btn-hover);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  &:hover,
+  &:focus {
+    background-color: var(--background-btn-hover);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
 }

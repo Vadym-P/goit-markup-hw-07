@@ -7,11 +7,11 @@
   color: var(--black-color);
   margin-right: 93px;
   animation-duration: 2000ms;
-}
 
-.logo.link.animate__rubberBand {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  &.link.animate__rubberBand {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
 }
 
 .part-logo {

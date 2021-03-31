@@ -82,11 +82,10 @@
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-
   transition: background-color var(--transition-time-cubic);
-}
 
-.social-links-footer-link:hover,
-.social-links-footer-link:focus {
-  background-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
