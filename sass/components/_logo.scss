@@ -7,23 +7,19 @@
   color: var(--black-color);
   margin-right: 93px;
   animation-duration: 2000ms;
-
-  &.link.animate__rubberBand {
-    padding-top: 24px;
-    padding-bottom: 25px;
-  }
-
-  &-white {
-    margin: auto;
-    color: var(--white-color);
-  }
 }
 
-.part-logo {
+.animate__rubberBand {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.logo__accent-text {
   color: var(--accent-color);
 }
 
-.link.logo.logo-white {
+.logo_theme-dark {
   display: block;
   margin-bottom: 20px;
+  color: var(--white-color);
 }

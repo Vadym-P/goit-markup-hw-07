@@ -1,47 +1,24 @@
 .email-form {
   margin-left: auto;
-
-  &-title {
-    font-family: var(--main-font);
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--white-color);
-    margin-bottom: 20px;
-  }
-
-  &-btn {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    min-width: 200px;
-    font-family: var(--main-font);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-    color: var(--white-color);
-    padding: 10px 29px;
-    background: var(--accent-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    cursor: pointer;
-    border: none;
-
-    &-icon {
-      fill: var(--white-color);
-    }
-  }
 }
 
-.subscribe-form {
+.email-form__title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin-bottom: 20px;
+}
+
+.subscribe {
   display: flex;
   align-items: center;
 }
 
-.contact-form-email {
+.subscribe__form {
   width: 358px;
   height: 50px;
   font-weight: 400;
@@ -54,13 +31,37 @@
   background-color: transparent;
   padding: 15px;
   margin-right: 12px;
+}
 
-  &::placeholder {
-    font-family: var(--main-font);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
-    color: var(--text-color-default);
-  }
+.subscribe__form::placeholder {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+
+  color: var(--text-color-default);
+}
+
+.subscribe__btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 200px;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  padding: 10px 29px;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.subscribe__btn-icon {
+  fill: var(--white-color);
 }

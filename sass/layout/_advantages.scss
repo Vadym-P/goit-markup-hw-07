@@ -1,66 +1,66 @@
 .advantages {
   padding-top: var(--section-pt);
   padding-bottom: 47px;
+}
 
-  &-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 270px;
-    height: 120px;
-    background: #f5f4fa;
-    border-radius: 4px;
+.advantages-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
 
-    &-list {
-      display: flex;
-      align-items: center;
-      margin-bottom: 30px;
-      margin-left: -30px;
-      margin-top: -30px;
-    }
+.list-icons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-left: -30px;
+  margin-top: -30px;
+}
 
-    &-item {
-      flex-basis: calc(100% / 4 - 30px);
-      margin-left: 30px;
-      margin-top: 30px;
-    }
+.list-icons__item {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
 
-    &-img {
-      display: flex;
-      align-items: center;
-      width: 70px;
-      height: 70px;
-    }
-  }
+.list-icons__figure {
+  display: flex;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+}
 
-  &-list {
-    display: flex;
-    align-items: center;
-    margin-left: -30px;
-    margin-top: -30px;
+.list-desc {
+  display: flex;
+  align-items: center;
+  margin-left: -30px;
+  margin-top: -30px;
+}
 
-    &-item {
-      flex-basis: calc(100% / 4 - 30px);
-      margin-left: 30px;
-      margin-top: 30px;
-    }
+.list-desc__item {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
 
-    &-title {
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 1.14;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      margin-bottom: 10px;
-    }
+.list-desc__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
 
-    &-description {
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 1.71;
-      letter-spacing: 0.03em;
+.list-desc__title_modifier {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 
-      color: var(--content-description);
-    }
-  }
+  color: var(--content-description);
 }
