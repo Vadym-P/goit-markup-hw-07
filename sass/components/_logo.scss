@@ -12,15 +12,15 @@
     padding-top: 24px;
     padding-bottom: 25px;
   }
+
+  &-white {
+    margin: auto;
+    color: var(--white-color);
+  }
 }
 
 .part-logo {
   color: var(--accent-color);
-}
-
-.logo-white {
-  margin: auto;
-  color: var(--white-color);
 }
 
 .link.logo.logo-white {

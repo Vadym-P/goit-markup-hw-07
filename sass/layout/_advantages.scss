@@ -1,66 +1,66 @@
 .advantages {
   padding-top: var(--section-pt);
   padding-bottom: 47px;
-}
 
-.advantages-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 270px;
-  height: 120px;
-  background: #f5f4fa;
-  border-radius: 4px;
-}
+  &-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background: #f5f4fa;
+    border-radius: 4px;
 
-.advantages-icon-list {
-  display: flex;
-  align-items: center;
-  margin-bottom: 30px;
-  margin-left: -30px;
-  margin-top: -30px;
-}
+    &-list {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+      margin-left: -30px;
+      margin-top: -30px;
+    }
 
-.advantages-icon-item {
-  flex-basis: calc(100% / 4 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
-}
+    &-item {
+      flex-basis: calc(100% / 4 - 30px);
+      margin-left: 30px;
+      margin-top: 30px;
+    }
 
-.advantages-icon-img {
-  display: flex;
-  align-items: center;
-  width: 70px;
-  height: 70px;
-}
+    &-img {
+      display: flex;
+      align-items: center;
+      width: 70px;
+      height: 70px;
+    }
+  }
 
-.advantages-list {
-  display: flex;
-  align-items: center;
-  margin-left: -30px;
-  margin-top: -30px;
-}
+  &-list {
+    display: flex;
+    align-items: center;
+    margin-left: -30px;
+    margin-top: -30px;
 
-.advantages-list-item {
-  flex-basis: calc(100% / 4 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
-}
+    &-item {
+      flex-basis: calc(100% / 4 - 30px);
+      margin-left: 30px;
+      margin-top: 30px;
+    }
 
-.advantages-list-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
+    &-title {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
 
-.advantages-list-description {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+    &-description {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
 
-  color: var(--content-description);
+      color: var(--content-description);
+    }
+  }
 }
