@@ -2,23 +2,23 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
 
-.social-list__link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: var(--white-color);
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--white-color);
 
-  transition: background-color var(--transition-time-cubic);
-}
+    transition: background-color var(--transition-time-cubic);
 
-.social-list__link:hover,
-.social-list__link:focus {
-  background-color: var(--accent-color);
+    &:hover,
+    &:focus {
+      background-color: var(--accent-color);
+    }
+  }
 }
 
 .social-list__icon {
@@ -27,11 +27,11 @@
   fill: var(--color-icon-clients);
 
   transition: fill var(--transition-time-cubic);
-}
 
-.social-list__link:hover .social-list__icon,
-.social-list__link:focus .social-list__icon {
-  fill: var(--white-color);
+  .social-list__link:hover &,
+  .social-list__link:focus & {
+    fill: var(--white-color);
+  }
 }
 
 /* ======== SOCIAL LIST FOR DARK_THEME ======== */
@@ -50,31 +50,31 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
 
-.social-links__item:not(:last-child) {
-  margin-right: 10px;
-}
+  &__item:not(:last-child) {
+    margin-right: 10px;
+  }
 
-.social-links__icon {
-  width: 20px;
-  height: 20px;
-  fill: var(--white-color);
-}
+  &__icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--white-color);
+  }
 
-.social-links__link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
 
-  transition: background-color var(--transition-time-cubic);
-}
+    transition: background-color var(--transition-time-cubic);
 
-.social-links__link:hover,
-.social-links__link:focus {
-  background-color: var(--accent-color);
+    &:hover,
+    &:focus {
+      background-color: var(--accent-color);
+    }
+  }
 }

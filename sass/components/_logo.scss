@@ -7,19 +7,19 @@
   color: var(--black-color);
   margin-right: 93px;
   animation-duration: 2000ms;
+
+  &__accent-text {
+    color: var(--accent-color);
+  }
+
+  &_theme-dark {
+    display: block;
+    margin-bottom: 20px;
+    color: var(--white-color);
+  }
 }
 
 .animate__rubberBand {
   padding-top: 24px;
   padding-bottom: 25px;
-}
-
-.logo__accent-text {
-  color: var(--accent-color);
-}
-
-.logo_theme-dark {
-  display: block;
-  margin-bottom: 20px;
-  color: var(--white-color);
 }
