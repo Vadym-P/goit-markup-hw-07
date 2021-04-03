@@ -29,20 +29,20 @@
     &:focus {
       color: var(--accent-color);
     }
+  }
 
-    &.link.current {
-      color: var(--accent-color);
+  &__link.link.current {
+    color: var(--accent-color);
 
-      &::after {
-        position: absolute;
-        display: block;
-        content: "";
-        width: 100%;
-        height: 4px;
-        background-color: var(--accent-color);
-        border-radius: 2px;
-        transform: translateY(28px);
-      }
+    &::after {
+      position: absolute;
+      display: block;
+      content: "";
+      width: 100%;
+      height: 4px;
+      background-color: var(--accent-color);
+      border-radius: 2px;
+      transform: translateY(28px);
     }
   }
 }
